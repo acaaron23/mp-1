@@ -7,7 +7,7 @@ function addition() {
     document.getElementById("result-msg").innerHTML = String(number1 + number2);
 }
 
-function subtract() {
+function subtraction() {
     const numberInput1 = document.getElementById("first-number").value
     const numberInput2 = document.getElementById("second-number").value
 
@@ -16,7 +16,7 @@ function subtract() {
     document.getElementById("result-msg").innerHTML = String(number1 - number2);
 }
 
-function multiply() {
+function multiplication() {
     const numberInput1 = document.getElementById("first-number").value
     const numberInput2 = document.getElementById("second-number").value
 
@@ -25,7 +25,7 @@ function multiply() {
     document.getElementById("result-msg").innerHTML = String(number1 * number2);
 }
 
-function divide() {
+function division() {
     const numberInput1 = document.getElementById("first-number").value
     const numberInput2 = document.getElementById("second-number").value
 
