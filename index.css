@@ -65,38 +65,39 @@ main p{
     font-size: calc(1.6px + 1.6vw);
 }
 
+#profile-image{
+    max-width: 110%;
+}
+
 #main{
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 2vh 2vw;
 }
 
+#main-text{
+    width: 50%;
+    margin: 2vh 2vw;
+}
+
+#main-image{
+    width: 40%;
+    margin: 1vh 1vw;
+}
+
 #main-title{
-    margin: 1vw 0;
+    margin: 2vw 0;
     text-align: center;
     font-size: calc(2px + 2vw);
     color: darkred;
 }
 
-#coding-info{
-    width: 95%;
-    display: flex;
-    flex-direction: column;
-    margin-left: 10px;
-    font-size: calc(1.35px + 1.35vw);
-}
-
-#main-text{
-    text-align: center;
-}
-
 footer{
     text-align: left;
 }
-
 footer a{
-    text-decoration: darkred;
+    color: red;
 }
 
 /* For screens smaller than 750px */
@@ -138,6 +139,10 @@ footer a{
         font-size: calc(3px + 3vw);
     }
 
+    #profile-image{
+        max-width: 100%;
+    }
+
     #main{
         width: 100%;
         display: flex;
@@ -152,9 +157,17 @@ footer a{
         font-size: calc(10px + 10vw);
     }
 
+    #main-image{
+        margin: 1vh auto;
+    }
+
     #main-title{
         text-align: center;
         color: maroon;
+    }
+
+    #welcome{
+        text-align: center;
     }
 
     footer{

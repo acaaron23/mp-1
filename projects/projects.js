@@ -64,7 +64,7 @@ function division() {
         document.getElementById("output").innerHTML = "Cannot divide by 0";
     }
 
-    let result = number1 + number2
+    let result = number1 / number2
 
     if (result < 0){
         document.getElementById("output").setAttribute("style", "color: red")
