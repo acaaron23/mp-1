@@ -61,10 +61,6 @@ main{
     background-color: lightblue;
 }
 
-#profile-image{
-    max-width: 110%;
-}
-
 #main{
     width: 100%;
     display: flex;
@@ -79,20 +75,37 @@ main{
     color: darkred;
 }
 
-#employment-info{
+#bu_csc_logo{
+    width: 25%;
+    margin-left: 5vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.bu_csc{
+    display: flex;
+    flex-direction: row;
+}
+
+.bu_csc_info{
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px;
+}
+
+#leadership-info{
     width: 95%;
     display: flex;
     flex-direction: column;
-    margin-left: 10px;
-    font-size: calc(1.5px + 1.5vw);
+    font-size: calc(1.25px + 1.25vw);
+    margin: 10px 10px;
 }
 
 footer{
-    text-align: left;
-}
-
-footer a{
-    text-decoration: darkred;
+    text-align: center;
+    background-color: lightgray;
+    width: 100%;
+    font-size: calc(1.25px + 1.25vw);
 }
 
 /* For screens smaller than 750px */
@@ -159,6 +172,9 @@ footer a{
 
     footer{
         text-align: center;
+        background-color: lightgray;
+        width: 100%;
+        font-size: calc(1.5px + 1.5vw);
     }
 }
 

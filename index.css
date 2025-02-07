@@ -94,11 +94,12 @@ main p{
 }
 
 footer{
-    text-align: left;
+    text-align: center;
+    background-color: lightgray;
+    width: 100%;
+    font-size: calc(1.25px + 1.25vw);
 }
-footer a{
-    color: red;
-}
+
 
 /* For screens smaller than 750px */
 @media screen and (max-width: 750px){
@@ -172,6 +173,9 @@ footer a{
 
     footer{
         text-align: center;
+        background-color: lightgray;
+        width: 100%;
+        font-size: calc(1.5px + 1.5vw);
     }
 }
 

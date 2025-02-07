@@ -92,11 +92,10 @@ main p{
 }
 
 footer{
-    text-align: left;
-}
-
-footer a{
-    text-decoration: darkred;
+    text-align: center;
+    background-color: lightgray;
+    width: 100%;
+    font-size: calc(1.25px + 1.25vw);
 }
 
 /* For screens smaller than 750px */
@@ -159,6 +158,9 @@ footer a{
 
     footer{
         text-align: center;
+        background-color: lightgray;
+        width: 100%;
+        font-size: calc(1.5px + 1.5vw);
     }
 }
 
