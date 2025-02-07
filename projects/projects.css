@@ -43,7 +43,7 @@ nav ul{
 }
 
 nav li{
-    font-size: calc(2px + 2vw);
+    font-size: calc(1.5px + 1.5vw);
     width: 75%;
     background-color: mintcream;
     padding: 1vh;
@@ -174,7 +174,7 @@ footer{
     main{
         padding-top: 1px;
         width: 100%;
-    };
+    }
 
     main p{
         margin: 2% 2%;

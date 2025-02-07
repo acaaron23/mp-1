@@ -43,7 +43,7 @@ nav ul{
 }
 
 nav li{
-    font-size: calc(2px + 2vw);
+    font-size: calc(1.5px + 1.5vw);
     width: 75%;
     background-color: mintcream;
     padding: 1vh;
@@ -62,7 +62,7 @@ main{
 
 main p{
     margin: 0 1vw;
-    font-size: calc(1.6px + 1.6vw);
+    font-size: calc(1.25px + 1.25vw);
 }
 
 #profile-image{
@@ -79,6 +79,7 @@ main p{
 #main-text{
     width: 50%;
     margin: 2vh 2vw;
+    font-size: calc(1.5px + 1.5vw);
 }
 
 #main-image{
@@ -102,10 +103,11 @@ footer{
 
 
 /* For screens smaller than 750px */
-@media screen and (max-width: 750px){
-    header{
+@media screen and (max-width: 750px) {
+    header {
         align-items: center;
     }
+
     #container {
         width: 100%;
         flex-direction: column;
@@ -130,48 +132,48 @@ footer{
         margin: 1% 2%;
     }
 
-    main{
+    main {
         padding-top: 1px;
         width: 100%;
-    };
+    }
 
-    main p{
+    main p {
         margin: 2% 2%;
         font-size: calc(3px + 3vw);
     }
 
-    #profile-image{
+    #profile-image {
         max-width: 100%;
     }
 
-    #main{
+    #main {
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
-    #main-text{
+    #main-text {
         align-self: center;
         width: 100%;
         margin: 1vh 1vw;
         font-size: calc(10px + 10vw);
     }
 
-    #main-image{
+    #main-image {
         margin: 1vh auto;
     }
 
-    #main-title{
+    #main-title {
         text-align: center;
         color: maroon;
     }
 
-    #welcome{
+    #welcome {
         text-align: center;
     }
 
-    footer{
+    footer {
         text-align: center;
         background-color: lightgray;
         width: 100%;
